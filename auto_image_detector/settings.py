@@ -22,12 +22,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 
-SECRET_KEY = os.environ['SECRET_KEY']
+SECRET_KEY = 'django-insecure-j8)grk7hl9xrzu)!e@4bgix1r7mgd-ok#_2m@b^(avm$_2l^iw'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ["auto-image-detector.herokuapp.com/","localhost"]
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition

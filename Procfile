@@ -1,1 +1,0 @@
-web: waitress-serve --port=$PORT auto_image_detector.wsgi:application
