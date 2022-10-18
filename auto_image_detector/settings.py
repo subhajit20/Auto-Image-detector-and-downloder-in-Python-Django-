@@ -66,7 +66,8 @@ CORS_ALLOWED_ORIGINS = [
     "https://sub.example.com",
     "http://localhost:8080",
     "http://127.0.0.1:9000",
-    "http://127.0.0.1:5500"
+    "http://127.0.0.1:5500",
+    "https://auto-image-detector-downloader.netlify.app/"
 ]
 
 CORS_ALLOW_METHODS = [
